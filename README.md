@@ -167,7 +167,7 @@ Akash Gokul: Akash's background is in computer science and machine learning. He 
 
 <img src="images/ayrton.jpg" width="200">
 
-Artun Dalyan: Artun has a background in signal processing as well as feedback systems. Artun helped Akash with vision for detecting target. Also, he worked on the targeting component and derived equations of physics which were coded for CHAD.
+Artun Dalyan: Artun is a EECS major and has a background in signal processing as well as feedback systems. He is involved with the hardware development and design researches related with medical sector. Artun helped Akash with vision for detecting target and wrote part of the code for vision. Also, he worked on the targeting component and derived equations of physics which were coded for CHAD. For optimizations of the project, he brought up critical ideas to solve problems at vision and targeting for CHAD.
 
 # Additional Materials
 ---
