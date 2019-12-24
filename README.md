@@ -9,7 +9,7 @@ Before building CHAD, we had two simple goals in mind.
 - Enable a Baxter robot to recognize a red Solo cup and launch a ping pong ball at it.
 - As CHAD's accuracy increases, we want it to be able to engage in a turn-based game with multiple cups, against a human adversary.
     
-We can break down the game of beer pong into three main problems: 
+We can break down the game of [beer pong](https://en.wikipedia.org/wiki/Beer_pong) into three main problems: 
 
 1. **Computer vision**, to recognize and locate red Solo cups on a table.
 2. **Path planning**, to aim Baxter's right arm according to the best trajectory.
