@@ -187,7 +187,7 @@ Results: (we used the average of 12 test shots to come up with an initial veloci
 <img src="images/gun_calc.jpg" width="800">
 
 ## Code
-Code for our project can be found [here.](https://github.com/chad-bot/CHADBot)
+Code for our [project.](https://github.com/chad-bot/CHADBot)
 
 Code for this [website.](https://github.com/chad-bot/Beer-Pong)
  
