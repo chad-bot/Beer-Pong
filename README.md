@@ -35,12 +35,12 @@ Before any implementation, we decided that we would judge the success of CHAD on
 - Consistent recognition of cups and calculation of trajectory
 - Robust end-effector hardware.
 
-The desired functionality for CHAD is to shoot at different configurations and distances of cup targets. At a medium range, and with 6 cups in a diamond formation, we hoped to achieve a 50% cup hit rate.  We believe this percentage represents our team members’ average sober cup pong ability.
+The desired functionality for CHAD is to shoot at different configurations and distances of cup targets. At a medium range, and with 6 cups in a diamond formation, CHAD should make half of its shots, achieving a **50% cup hit rate**.  We believe this percentage represents our team members’ average sober cup pong ability.
 
 ## In depth design
 
 ### Hardware design:
-Our hardware consisted of one toy plastic [ping-pong gun](https://www.amazon.com/Toyvian-Shooting-Child-Random-Color/dp/B07NVCM5VK) (attached to Baxter's right arm gripper), Solo cups, and a table cover. 
+Our hardware consists of one toy plastic [ping-pong gun](https://www.amazon.com/Toyvian-Shooting-Child-Random-Color/dp/B07NVCM5VK) (attached to Baxter's right arm gripper), Solo cups, and a table cover. 
 
 Even though we considered other means of launching the ping-pong ball at the target (ranging from rubber band sling shots to air powered cannons) we settled on the ping-pong gun because of how easy it was to modify, repair, or even replace when one inevitably broke. We specifically choose red Solo cups and a black table cover both for the traditional aesthetic and their computer-vision friendly color contrast. Having the distinctive separation between the red exterior, white interior, and dark background allowed us to remove a lot of the noise from the image without having to create more complex vision detection algorithms. 
 
@@ -124,7 +124,7 @@ Simultaneously, we used the ROS package "ar\_track\_alvar" to identify the orien
     
 Then we calculate the two launch angles ψ and θ according to the trajectory algorithms described above in the design portion. Baxter uses the MoveIt planner and controller from lab 7 to set its shoulder and wrist joint to ψ and θ, respectively.
     
-With the gun in place, a subscriber tracking the status of Baxter's right gripper is notified to "close", actuating the gun, then "open" on completion of the launch. Once the ping pong is shot, we return the arm to the "ready" position to make sure we never block Baxter's line of sight.
+With the gun in place, a subscriber tracking the status of Baxter's right gripper is notified to "close", actuating the gun's trigger, then "open" on completion of the launch. Once the ping pong is shot, we return the arm to the "ready" position to make sure we never block Baxter's line of sight.
     
 # Results
 ---
