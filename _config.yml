@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: CHAD - Controlled Highly Accurate Deadeye
-description: EECS 106a Final Project
+description: An experiment in beer pong robotics.
 
 github:
   repository_url: https://github.com/chad-bot/CHADBot
