@@ -19,9 +19,9 @@ Our team found this project interesting because of its precise nature. Cups are 
 
 
 #### Real World Application
-Besides helping you win at parties, CHAD has several useful applications in the robotics industry.
+Aside from tailgates and game days, CHAD has several real world applications in the robotics industry.
 
-Our cup detection could be used in places such as laboratories or warehouses, where precise identification of containers and their orientation can help automate the process of moving objects from one place to another. For example, Amazon is greatly automating their fulfillment centers and relying on robots to do simple moving tasks. 
+Cup detection can be useful in places such as laboratories or warehouses, where precise identification of containers and their orientation can help automate the process of moving objects from one place to another. For example, Amazon is greatly automating their fulfillment centers and relying on robots to do simple moving tasks. 
 
 Our trajectory calculation of the ball makes use of a concept that can be applied to any weapons technology that involves projectiles. For instance, a robot can determine if its current position is the best position to take a shot at a certain target, or if it should move itself to another location that allows for a better trajectory.
 
